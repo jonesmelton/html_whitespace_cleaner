@@ -1,6 +1,6 @@
 # HtmlWhitespaceCleaner
 
-A simple module that strips useless whitespace between html tags, for easier parsing.
+A simple Ruby [gem](https://rubygems.org/gems/html_whitespace_cleaner) that strips useless whitespace between html tags, for easier parsing.
 
 ## Installation
 
