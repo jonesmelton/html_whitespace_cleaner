@@ -1,7 +1,7 @@
 require "html_whitespace_cleaner/version"
 
 ##
-# This module contains the public interface #clean and some private methods 
+# This module contains the public interface #clean and some private methods
 # used within it.
 
 module HtmlWhitespaceCleaner
@@ -28,7 +28,7 @@ module HtmlWhitespaceCleaner
   end
 
   def self.condense_whitespace(html_string)
-    html_string.gsub(/\s+/, ' ')
+    html_string.gsub(/\s+/, " ")
   end
 
 end
